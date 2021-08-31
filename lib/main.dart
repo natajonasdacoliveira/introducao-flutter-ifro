@@ -1,21 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:ola_mundo/app_widget.dart';
 
 void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp();
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(primaryColor: Colors.green),
-      home: Container(
-        child: Center(
-          child: Text('App'),
-        ),
-      ),
-    );
-  }
+  runApp(AppWidget());
 }
